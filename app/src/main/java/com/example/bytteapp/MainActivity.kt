@@ -166,9 +166,10 @@ fun LogInSection(fontFamily: FontFamily) {
             Spacer(modifier = Modifier.height(16.dp))
 
 
-            Button(onClick = {
+            Button(
+                onClick = {
 
-            },
+                },
                 modifier = Modifier
                     .align(Alignment.CenterHorizontally)
                     .width(180.dp)
@@ -180,7 +181,8 @@ fun LogInSection(fontFamily: FontFamily) {
             ) {
                 Text(
                     text = "Log in",
-                    fontSize = 20.sp)
+                    fontSize = 20.sp
+                )
             }
         }
     }
